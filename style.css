@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+nav {
+  background-color: rgb(246, 246, 246);
+  width: 100%;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  margin-right: 200px;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 200px;
+}
+
+.navbar ul li {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(81, 81, 81);
+}
+
+.navbar .search-icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar button {
+  background-color: #FC5D35;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.navbar .end {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.head-section {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+}
+
+.section-left {
+  /* background-color: #FC5D35; */
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 80px;
+  height: 400px;
+  padding: 40px 0;
+}
+
+.section-left h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.section-left p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.section-left button {
+  background-color: #FC5D35;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.section-left button:last-child {
+  background-color: black;
+  margin-left: 10px;
+}
+
+.section-right {
+  margin: 80px;
+}
+
+.service-section {
+  margin: 0 120px;
+}
+
+.service-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.service-section p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+
+.first-card {
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+  padding: 20px;
+}
+
+.first-card img {
+  width: 48px;
+  height: 48px;
+}
+
+.first-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FC5D35;
+  margin: 20px 0;
+}
+
+.first-card p {
+  color: rgb(60, 59, 59);
+  padding: 0 20px;
+}
+
+.service-card {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.service-section button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 80px;
+  font-weight: 400;
+}
+
+/* Fruit Container */
+
+.fruit-container h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fruit-container p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+
+.fruit-section {
+  width: 86%;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fruit-section .features {
+  width: 80%;
+  padding: 20px;
+}
+
+.fruit-section .features h2 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.fruit-section .features p {
+  line-height: 18px;
+}
+
+.fruit-section .features button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  font-weight: 400;
+}
+
+.fruit-image {
+  text-align: end;
+  margin-bottom: 20px;
+  width: 25%;
+}
+
+.fruit-image img {
+  width: 180px;
+}
+
+/* Testimonial */
+
+.testimonial {
+  margin: 80px;
+}
+
+.testimonial h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0
+}
+
+.testimonial p {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.testimonial img {
+  margin-top: 20px;
+}
+
+.testimonial .name {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+blockquote {
+  width: 80%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Contact */
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 180px;
+  margin-bottom: 80px;
+}
+
+.contact-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}
+
+.contact-section .form {
+  width: 80%;
+}
+
+form input {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  margin-left: 130px;
+  font-size: 18px;
+}
+
+form button {
+  background-color: #FC5D35;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin: 30px 130px;
+  font-weight: 400;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer .fruits h3 {
+  margin-bottom: 10px;
+}
+
+.follow-us h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.follow-us img {
+  margin-bottom: 10px;
+}
+
+.footer-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.follow-us button {
+  background-color: #FC5D35;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(110, 110, 110, 0.767);
+  padding: 10px;
+}
